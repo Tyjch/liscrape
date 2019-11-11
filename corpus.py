@@ -15,7 +15,6 @@ def prepare_corpus(file=FILEPATH, lang='en'):
 
 
 if __name__ == '__main__':
-
     corpus = prepare_corpus()
     login()
     link = search_jobs('Data Analyst', 'Los Angeles, California')

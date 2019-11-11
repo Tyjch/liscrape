@@ -8,7 +8,7 @@ for doc in corpus:
         doc,
         normalize=None,
         include_pos=('NOUN', 'PROPN'),
-        topn=0.5
+        topn=0.9
     )
 
     kt = filter(lambda x: x[0][0].isupper(), kt)
